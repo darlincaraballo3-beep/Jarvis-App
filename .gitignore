@@ -1,0 +1,4 @@
+.ollama/
+.ssh/
+.termux/
+jarvis.sh
