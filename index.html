@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jarvis 🤖 — Tu Asistente Inteligente</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JARVIS — Tu Asistente Inteligente</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="contenedor">
-        <header>
-            <h1>⚡ JARVIS</h1>
-            <p class="subtitulo">Tu asistente inteligente — Todo tuyo 💎</p>
-        </header>
+  <div class="contenedor">
+    <header>
+      <h1>⚡ JARVIS</h1>
+      <p class="subtitulos">Tu asistente inteligente — Creado por ti</p>
+    </header>
 
-        <div class="caja-chat">
-            <div class="estado-barra">
-                <span>Estado:</span>
-                <span id="estado" class="estado-indicador">Conectado ✅</span>
-            </div>
-
-            <div id="salida" class="ventana-mensajes">
-                <div class="mensaje jarvis">
-                    <strong>Jarvis 🤖:</strong><br>
-                    ¡Hola! Estoy lista 💡 Pregúntame cualquier cosa — sé sobre historias, videos, CreaTuReel, Termux, GitHub y todo lo que hemos construido. ¿En qué te ayudo?
-                </div>
-            </div>
-
-            <div class="caja-entrada">
-                <input type="text" id="entrada" placeholder="Escribe tu pregunta aquí..." autocomplete="off">
-                <button id="enviar">Enviar ➤</button>
-            </div>
+    <div class="caja-chat">
+      <div id="estado-barra">
+        <span id="estado">✅ Sistema listo</span>
+      </div>
+      
+      <div id="pantalla-mensajes">
+        <div class="mensaje sistema">
+          ¡Hola! Soy Jarvis. ¿En qué puedo ayudarte hoy?
         </div>
-    </div>
+      </div>
 
-    <script src="app.js"></script>
+      <div class="entrada">
+        <input type="text" id="texto-entrada" placeholder="Escribe tu mensaje...">
+        <button id="btn-enviar">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
 
